@@ -3,6 +3,8 @@ SampleAppOrg::Application.routes.draw do
   get "static_pages/help"
   get "static_pages/about"
   get "static_pages/contact"
+  get "static_pages/signin"
+  get "static_pages/signout"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
